@@ -1,12 +1,12 @@
 .header {
     background: #352343;
-    height: 200px;
+    height: 150px;
   }
   
   .header h1 {
     margin: 0;
     padding-top: 75px;
     text-align: center;
-    color: white;
+    color: #FFF4E9;
     font-size: 3rem;
   }

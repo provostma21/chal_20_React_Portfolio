@@ -1,10 +1,26 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin, faStackOverflow } from '@fortawesome/free-brands-svg-icons';
 
-function Footer() {
+export default function Footer() {
     return (
-        <div className='footer'>Bye Bye</div>
+        <footer className="flex flex-col items-center justify-center min-h-screen py-2">
+            <div className="flex">
+                <a href="https://github.com/provostma21" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={faGithub} size="3x" className="hover:text-gray-500" />
+                </a>
+                <a href="https://github.com/provostma21" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={faLinkedin} size="3x" className="hover:text-gray-500" />
+                </a>
+                <a href="https://github.com/provostma21" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={faStackOverflow} size="3x" className="hover:text-gray-500" />
+                </a>
+                <a href="https://github.com/provostma21" target="_blank" rel="noopener noreferrer">
+                    <FontAwesomeIcon icon={faCoffee} size="3x" className="hover:text-gray-500" />
+                </a>
+            </div>
+        </footer>
+
     );
-
 }
-
-export default Footer;

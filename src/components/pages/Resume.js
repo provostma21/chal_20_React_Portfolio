@@ -1,0 +1,27 @@
+import React from 'react';
+import ResumeTemp from '../../assets/images/grinning_wolf.jpg';
+export default function Resume() {
+  return (
+    <div>
+      <h1>Resume</h1>
+        <h2>Skills</h2>
+        <ul className='skills'>
+            <li>HTML</li>
+            <li>CSSS</li>
+            <li>Javascript</li>
+            <li>NodeJS</li>
+            <li>RESTfulAPIs</li>
+            <li>Mongoose</li>
+            <li>ReactJS</li>
+        </ul>
+      <p>
+        I am currently finishing up the Part-time Full-Stack Coding Bootcamp with Columbia University. If you are interested, please feel free to download
+        my resume below!
+      </p>
+      <div className='resume'>
+        <a href={ResumeTemp} download>
+            Download Here </a> 
+      </div>
+    </div>
+  );
+}

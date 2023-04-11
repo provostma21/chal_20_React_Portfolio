@@ -1,0 +1,15 @@
+.home {
+   background: #FFF4E9;
+   text-align: center;
+   margin: 20px;
+}
+
+.home p {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.home img {
+    align-content: center;
+}
+
