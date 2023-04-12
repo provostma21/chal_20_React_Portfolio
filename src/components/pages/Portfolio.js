@@ -1,8 +1,8 @@
 import React from 'react';
 
-export default function Portfolio() {
+export default function Portfolio({ projects }) {
   return (
-    <div>
+    <div className="portfolio">
       <h1>My Work</h1>
       <p>
         Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis

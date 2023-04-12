@@ -1,5 +1,6 @@
 import React from 'react';
 import ResumeTemp from '../../assets/images/grinning_wolf.jpg';
+
 export default function Resume() {
   return (
     <div>
