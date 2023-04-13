@@ -1,22 +1,60 @@
 import React from 'react';
+import '../../styles/Home.css';
+import '../../styles/Header.css';
+import '../../styles/Portfolio.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Row, Container, Card} from 'react-bootstrap';
+import projects from '../../assets/projects/projects';
 
-export default function Portfolio({ projects }) {
+const styles = {
+  img: {
+    height: '200px',
+    width: '250px%',
+    margin: 'auto',    
+  },
+  card: {
+    color: '#FFF4E9',
+    width: '200px',
+  },
+};
+
+export default function Portfolio() {
+  
+    const element= projects.map((project, index) =>
+    <div key={index} className='project-grid-item'>
+      <a 
+        key={index}
+        href={project.link}
+        target='_blank'
+        rel='noopener noreferrer'
+        className='mx-auto d-block'
+      >
+        <img src={project.image} alt={project.name} className='mx-auto d-block'
+        style={styles.img}/>
+      </a>
+      <div className='text-center'>
+        <h3 className='text-center'>{project.name}</h3>
+        <button className='btn btn-primary'>
+        <a href={project.repoLink} target='_blank' rel='noopener noreferrer'
+        >GitHub Link</a>
+        </button>
+      </div>
+    </div>)
+  
   return (
     <div className="portfolio">
-      <h1>My Work</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+      
+      <Container>
+        <div className="header">
+            <h1>My Work</h1>
+        </div>
+        <Card>
+        <Row xs={1} md={2}>          
+            {element}                  
+        </Row>
+        </Card>
+      </Container>
     </div>
+
   );
 }

@@ -2,7 +2,7 @@ import ProfileImg from '../../assets/images/port_photo.jpg';
 import '../../styles/Home.css';
 import '../../styles/Header.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Card } from 'react-bootstrap';
+import { Card, Container } from 'react-bootstrap';
 
 
 const styles = {
@@ -10,6 +10,10 @@ const styles = {
         width: "15%",
         height: "15%",
         alignContent: 'center',
+    },
+    card: {
+      color: '#FFF4E9',
+      width: '200px',
     },
 };
 
@@ -20,6 +24,7 @@ export default function Home() {
         <div className="header">
             <h1>Matthew M. Provost</h1>
         </div>
+        <Container className='container'>
         <Card className="mb-3" style={{ color: '#FFF4E9' }}>
           <Card.Img src={ProfileImg} style={styles.img}  class='rounded mx-auto d-block' alt='Matt'/>
             <Card.Body>
@@ -32,6 +37,7 @@ export default function Home() {
               </Card.Text>
             </Card.Body>
         </Card>
+        </Container>
       </div>
       </div>
     );
