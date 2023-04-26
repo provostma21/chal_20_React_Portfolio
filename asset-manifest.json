@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.57e2ad08.css",
+    "main.js": "/static/js/main.a90aab64.js",
+    "static/media/port_photo.jpg": "/static/media/port_photo.eac175e40f2613c42002.jpg",
+    "static/media/gifmemarvel.png": "/static/media/gifmemarvel.c7f897e32d9e439e2e33.png",
+    "static/media/WalLot.jpg": "/static/media/WalLot.cc51c8f02448dcdc140e.jpg",
+    "static/media/grinning_wolf.jpg": "/static/media/grinning_wolf.9fcf50e242c9c531113a.jpg",
+    "static/media/Jate1.jpg": "/static/media/Jate1.132fba139b6d94609d8f.jpg",
+    "static/media/notes1.jpg": "/static/media/notes1.f39dc83636a79c0d3201.jpg",
+    "index.html": "/index.html",
+    "main.57e2ad08.css.map": "/static/css/main.57e2ad08.css.map",
+    "main.a90aab64.js.map": "/static/js/main.a90aab64.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57e2ad08.css",
+    "static/js/main.a90aab64.js"
+  ]
+}
