@@ -2,6 +2,7 @@ import WalLot from '../images/WalLot.jpg';
 import Marvel from '../images/gifmemarvel.png';
 import Note from '../images/notes1.jpg';
 import Jate from '../images/Jate1.jpg';
+import Flash from '../images/FlashCapture.JPG';
 
 const projects = [
     {
@@ -33,6 +34,12 @@ const projects = [
         link: 'https://ancient-lake-74528.herokuapp.com/',
         repoLink: 'https://github.com/provostma21/chal_19_Text_Editor',
         image: Jate,
+    },
+    {
+        id: 5,
+        name: 'Flash Master',
+        link: 'https://github.com/Angelajm6/Flash-master',
+        image: Flash,
     }
 
 ];
