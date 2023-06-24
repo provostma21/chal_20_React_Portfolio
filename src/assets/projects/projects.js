@@ -30,17 +30,19 @@ const projects = [
 
     {
         id: 4,
+        name: 'Flash Master',
+        link: 'https://github.com/Angelajm6/Flash-master',
+        image: Flash,
+    },
+
+    {
+        id: 5,
         name: 'Just Another Text Editor',
         link: 'https://ancient-lake-74528.herokuapp.com/',
         repoLink: 'https://github.com/provostma21/chal_19_Text_Editor',
         image: Jate,
     },
-    {
-        id: 5,
-        name: 'Flash Master',
-        link: 'https://github.com/Angelajm6/Flash-master',
-        image: Flash,
-    }
+   
 
 ];
 

@@ -8,7 +8,7 @@ export default function Resume() {
         <h2>Skills</h2>
         <ul className='skills'>
             <li>HTML</li>
-            <li>CSSS</li>
+            <li>CSS</li>
             <li>Javascript</li>
             <li>NodeJS</li>
             <li>RESTfulAPIs</li>
