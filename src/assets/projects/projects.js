@@ -29,13 +29,6 @@ const projects = [
     },
 
     {
-        id: 4,
-        name: 'Flash Master',
-        link: 'https://github.com/Angelajm6/Flash-master',
-        image: Flash,
-    },
-
-    {
         id: 5,
         name: 'Just Another Text Editor',
         link: 'https://ancient-lake-74528.herokuapp.com/',
