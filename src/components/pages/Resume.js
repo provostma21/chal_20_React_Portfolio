@@ -10,6 +10,7 @@ export default function Resume() {
             <li>HTML</li>
             <li>CSS</li>
             <li>Javascript</li>
+            <li>Express</li>
             <li>NodeJS</li>
             <li>RESTfulAPIs</li>
             <li>Mongoose</li>
