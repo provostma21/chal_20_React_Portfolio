@@ -9,10 +9,10 @@ export default function Resume() {
         <ul className='skills'>
             <li>HTML</li>
             <li>CSS</li>
-            <li>Javascript</li>
+            <li>JavaScript</li>
             <li>Express</li>
             <li>NodeJS</li>
-            <li>RESTfulAPIs</li>
+            <li>RESTful APIs</li>
             <li>Mongoose</li>
             <li>ReactJS</li>
         </ul>
