@@ -9,16 +9,16 @@ export default function Footer() {
         <div className="footer">
             <div className="footer-container">
                 <a href="https://github.com/provostma21" target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon icon={faGithub} size="3x" className="github hover:text-gray-500" />
+                    <FontAwesomeIcon icon={faGithub} size="2x" className="github hover:text-gray-500" />
                 </a>
                 <a href="https://github.com/provostma21" target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon icon={faLinkedin} size="3x" className="linkedin hover:text-gray-500" />
+                    <FontAwesomeIcon icon={faLinkedin} size="2x" className="linkedin hover:text-gray-500" />
                 </a>
                 <a href="https://github.com/provostma21" target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon icon={faStackOverflow} size="3x" className="stackoverflow hover:text-gray-500" />
+                    <FontAwesomeIcon icon={faStackOverflow} size="2x" className="stackoverflow hover:text-gray-500" />
                 </a>
                 <a href="https://github.com/provostma21" target="_blank" rel="noopener noreferrer">
-                    <FontAwesomeIcon icon={faCoffee} size="3x" className="localcoffee hover:text-gray-500" />
+                    <FontAwesomeIcon icon={faCoffee} size="2x" className="localcoffee hover:text-gray-500" />
                 </a>
             </div>
         </div>
