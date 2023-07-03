@@ -17,7 +17,7 @@ export default function Resume() {
             <li>ReactJS</li>
         </ul>
       <p>
-        I am currently finishing up the Part-time Full-Stack Coding Bootcamp with Columbia University. If you are interested, please feel free to download
+        I have graduated from the Part-time Full-Stack Coding Bootcamp with Columbia University and am currently engaging in self-study to improve my coding skills. If you are interested, please feel free to download
         my resume below!
       </p>
       <div className='resume'>
