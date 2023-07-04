@@ -6,6 +6,7 @@ export default function Contact() {
       <h1>Contact Page</h1>
         <p>Email: provostmat@gmail.com</p>
         <p>GitHub: provostma21</p>
+        <p>LinkedIn: </p>
       
     </div>
   );
