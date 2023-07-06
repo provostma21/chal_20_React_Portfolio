@@ -22,7 +22,7 @@ export default function Resume() {
       </p>
       <div className='resume'>
         <a href={ResumeTemp} download>
-            Download Here </a> 
+            Download Here! </a> 
       </div>
     </div>
   );
